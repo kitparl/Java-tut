@@ -25,6 +25,8 @@ public class Fundamental {
 
         int number = 1;
 
+
+
         // number is variable and 1 is value
         // Variables in java
         // Variable is the container which hold the values
