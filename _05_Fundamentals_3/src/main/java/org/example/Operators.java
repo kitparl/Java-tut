@@ -79,6 +79,9 @@ public class Operators {
 
         // hw 1: theory: | vs || , & vs &&
         // hw 2: example 1,2,3
+
+        System.out.println(true | false);
+
     }
 
 }
