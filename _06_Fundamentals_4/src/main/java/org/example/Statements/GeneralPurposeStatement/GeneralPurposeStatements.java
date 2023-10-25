@@ -1,4 +1,4 @@
-package org.example.Statements;
+package org.example.Statements.GeneralPurposeStatement;
 
 public class GeneralPurposeStatements {
 
