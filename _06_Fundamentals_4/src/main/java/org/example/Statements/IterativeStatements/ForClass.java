@@ -19,22 +19,13 @@ public class ForClass {
         }
 
 
-//        while (condtion){
-//
-//        }
+        // print 20 to 1 divisible of 2
 
-        int j = 1;
-        while (j<=10){
-            if(j==2){
-                continue;
+        for(long i = 20; i>=1; i--){
+            if(i%2==0){
+                System.out.println(i);
             }
-            if(j == 5){
-                break;
-            }
-//            System.out.println(j);
-            j++;
         }
-
 
 
 
