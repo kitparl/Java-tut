@@ -1,6 +1,6 @@
 package org.example;
 
-public class Problem1 {
+public class PrimeNumber {
 
     // Question 1: Check any number is Prime number or not.
 
