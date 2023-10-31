@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class FindHCFofTwoNumber {
 
    //  6 = 1,2,3,6
@@ -15,8 +17,14 @@ public class FindHCFofTwoNumber {
     // 3 = 1,3
 
     public static void main(String[] args) {
-        int num1 = 8;
-        int num2 = 28;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first num: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Enter second num: ");
+        int num2 = scanner.nextInt();
+
         int hcf = 1;
 
         int smallerNumber;
@@ -29,11 +37,9 @@ public class FindHCFofTwoNumber {
 
         for(int i=1; i<smallerNumber; i++){
             if(num1%i == 0 && num2%i == 0){
-                hcf=4;
+                hcf=i;
             }
         }
             System.out.println(hcf);
-
     }
-
 }
